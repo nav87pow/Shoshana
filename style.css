@@ -1,0 +1,283 @@
+  @font-face {
+      font-family: 'NoaShalev';
+      src: url('./src/noa-shalev-regular-AlefAlefAlef.woff2') format('woff2'),
+           url('./src/noa-shalev-regular-AlefAlefAlef.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --bg-page: #ffffff;
+      --bg-card: #ede3d1;
+      --text: #0b0c09;
+      --red: #ff0600;
+    
+      --space-1: 8px;
+      --space-2: 12px;
+      --space-3: 16px;
+      --space-4: 24px;
+      --space-5: 40px;
+      --space-6: 72px;
+    }
+
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg-page);
+      color: var(--text);
+      font-family: 'NoaShalev', Arial, sans-serif;
+      line-height: 1.5;
+        overflow-x: hidden;
+
+    }
+      
+ 
+main.bg{
+    background-color: var(  --bg-card);
+  margin: 1.2rem;
+    border-radius: 1rem;
+    padding:6rem 2.4rem ;
+}
+header{   
+        top: -6rem;
+    position: relative;
+    left: -1.8rem;
+}
+.logo{
+    max-height: 8rem;
+    position: absolute;
+    top: -1.2rem;
+left:-1.4rem;
+mix-blend-mode: multiply; 
+}
+section.text{
+        margin: 0 auto;
+    max-width: 82vw;
+    margin-top: 8.2rem;
+}
+.hero{
+    max-width: 92vw;
+    width: auto;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-top: 3.2rem;
+}
+.shoshana_img{
+      max-height: 42vh;
+    display: block;
+    margin-inline: auto;
+    width: auto;
+   mix-blend-mode: multiply; 
+    max-width: 70vw;
+}
+.hero h1{
+    font-size: 2.8rem;
+    line-height: 0;
+}
+.hero h2{
+  font-size: 1.8rem;
+        line-height: 1.4;
+  
+}
+sup{
+  font-size: 1rem;
+}
+.hero a{
+    font-size: 1.2rem;
+   color: var(--text);
+    line-height: 3.6;  
+}
+
+p{ 
+  font-family: "David Libre", serif;
+     font-size: 1.4rem;
+    line-height: 1.48;
+    text-align: right;
+}
+section.textq img{
+width: 4.8rem;
+    mix-blend-mode: multiply;
+}
+section.textq {
+ margin-top: 8.2rem;
+    display: grid;
+}
+section.text, section.view, section.closer{
+     margin-top: 8.2rem;
+}
+
+blockquote{
+    text-align: right;
+font-size: 1.6rem;
+padding: 0;
+margin: 0;
+}
+
+section.view p{
+    margin-top: 3.2rem;
+}
+small{
+        font-weight: 600;
+    font-size: 1rem;
+}
+b{
+ font-family: 'NoaShalev', Arial, sans-serif;
+margin-top: 1.2rem;
+}
+ul{
+list-style: none;
+  padding: 0;
+ margin: 3.2rem 1.6rem;
+}
+li{
+  border: 1px solid black;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1rem;    
+   text-align: center;
+
+}
+section.view a{ 
+font-family: 'NoaShalev', Arial, sans-serif;
+line-height: 0;
+color: var(--text);
+}
+ul.custom-list{
+    flex-direction: row;
+     list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.custom-list ol {
+  position: relative;
+  padding-inline-start: 1.2rem;
+    font-family: "David Libre", serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2.4;
+}
+
+.custom-list ol::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.6em;
+  width:8px;
+  height:8px;
+ 
+  background: var(--red);
+  border-radius: 50%;
+}
+section.closer{
+    text-align: center;
+        margin-top: 12.2rem;
+}
+section.closer img{
+   mix-blend-mode: multiply;
+max-width: 26vw;
+}
+  .closer p{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+  }
+aside {
+  position: fixed;
+  bottom: 4rem;
+  left: 8.6rem;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateX(-50%) rotate(-90deg);
+  transform-origin: left bottom;
+    font-size: 0.6rem;
+    letter-spacing: 0.06rem;
+    opacity: 0.4;
+        border-bottom: 1px solid black;
+}
+
+aside span {
+  white-space: nowrap;
+}
+
+a:hover{
+  background-color: var(--red);
+}
+
+
+@media (min-width: 768px) {
+ aside{
+  font-size: 1.2rem;
+left: 12rem;
+bottom: 7.8rem;
+opacity: 0.32;
+}
+.logo{
+    max-height: 12rem;
+    top: -2rem;
+left:-2.2rem;
+}
+main.bg{
+  margin: 2.8rem;
+}
+.hero{
+  
+    margin-top: 0;
+}
+.shoshana_img{
+      max-height: 68vh;
+}
+
+.hero h2{
+  font-size: 1.8rem;
+        line-height: 1.4;
+}
+section.text, section.textq , section.view, section.closer{
+     margin: 18.2rem auto 0;
+     width: 52vw;
+     text-align: center;
+}
+section.textq {
+  width: 48vw;
+}
+blockquote{
+    text-align: right;
+font-size: 2.6rem;
+padding: 0;
+margin: 0;
+}
+
+p{
+  font-size: 2.2rem;
+  line-height: 1.62;
+}
+.custom-list ol {
+font-size: 1.8rem;
+text-align: right;
+}
+ul{    display: flex;
+    justify-content: space-between;
+  }
+ul.custom-list{
+    flex-direction: column
+  }
+  .hero a{
+font-size: 1.8rem;
+  }
+  section.closer img{
+    max-width: 10rem;
+  }
+  .closer p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+  }
+}
