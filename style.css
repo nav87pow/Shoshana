@@ -91,8 +91,8 @@ sup{
 
 p{ 
   font-family: "David Libre", serif;
-     font-size: 1.4rem;
-    line-height: 1.48;
+     font-size: 1.2rem;
+    line-height: 1.36;
     text-align: right;
 }
 h4{
@@ -109,7 +109,7 @@ section.textq {
     display: grid;
 }
 section.text, section.view, section.closer{
-     margin-top: 8.2rem;
+     margin-top: 6.2rem;
 }
 
 blockquote{
