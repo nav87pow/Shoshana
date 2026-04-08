@@ -13,12 +13,6 @@
       --text: #0b0c09;
       --red: #ff0600;
     
-      --space-1: 8px;
-      --space-2: 12px;
-      --space-3: 16px;
-      --space-4: 24px;
-      --space-5: 40px;
-      --space-6: 72px;
     }
 
 
@@ -100,6 +94,11 @@ p{
      font-size: 1.4rem;
     line-height: 1.48;
     text-align: right;
+}
+h4{
+    font-family: "David Libre", serif;
+    margin-bottom: 0;
+  font-size: 1.2rem;
 }
 section.textq img{
 width: 4.8rem;
@@ -212,6 +211,97 @@ a:hover{
   background-color: var(--red);
 }
 
+a.CTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: var(--red);
+
+  line-height: 1.1;
+  text-align: center;
+
+  margin: 5.2rem auto 0 ;
+}
+
+a.CTA span{
+  line-height: 1.6;
+}
+
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(11, 12, 9, 0.28);
+  padding: 1.5rem;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-box {
+  position: relative;
+  width: min(90vw, 680px);
+  background: var(--bg-card);
+  border: 2px solid var(--bg-page);
+  padding: 4.2rem 2rem 2.5rem;
+  text-align: center;
+      border-radius: 1.2rem;
+}
+
+.modal-content p {
+  margin: 0 0 2rem 0;
+  color: var(--text);
+  font-size: clamp(1.4rem, 2.8vw, 3rem);
+  line-height: 1.2;
+}
+
+.modal-link {
+  display: inline-block;
+  color: var(--text);
+  text-decoration: underline;
+  font-size: clamp(1.2rem, 2.2vw, 2.3rem);
+  line-height: 1.2;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  background: transparent;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+
+  font: inherit;
+  padding: 0;
+}
+
+.modal-close span {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.modal-close::first-line {
+  font-size: 1.4rem;
+}
 
 @media (min-width: 768px) {
  aside{
@@ -241,7 +331,7 @@ main.bg{
         line-height: 1.4;
 }
 section.text, section.textq , section.view, section.closer{
-     margin: 18.2rem auto 0;
+     margin: 14.2rem auto 0;
      width: 52vw;
      text-align: center;
 }
@@ -254,7 +344,9 @@ font-size: 2.6rem;
 padding: 0;
 margin: 0;
 }
-
+.hero h2{
+  margin: 0;
+}
 p{
   font-size: 2.2rem;
   line-height: 1.62;
@@ -280,4 +372,23 @@ font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.4rem;
   }
+a.CTA span{
+  font-size: 2rem;
+  line-height: 1.6;
+}
+a.CTA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+
+  width: 16rem;
+  height: 16rem;
+  
+
+  margin: 6.2rem auto 0 ;
+}
+
+
 }
