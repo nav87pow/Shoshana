@@ -175,11 +175,11 @@ ul.custom-list{
 }
 section.closer{
     text-align: center;
-        margin-top: 12.2rem;
+        margin-top: 6.2rem;
 }
 section.closer img{
    mix-blend-mode: multiply;
-max-width: 26vw;
+max-width: 22vw;
 }
   .closer p{
     font-size: 1rem;
