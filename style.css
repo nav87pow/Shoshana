@@ -84,7 +84,7 @@ sup{
   font-size: 1rem;
 }
 .hero a{
-    font-size: 1.2rem;
+    font-size: 1.12rem;
    color: var(--text);
     line-height: 3.6;  
 }
@@ -114,7 +114,7 @@ section.text, section.view, section.closer{
 
 blockquote{
     text-align: right;
-font-size: 1.6rem;
+font-size: 1.4rem;
 padding: 0;
 margin: 0;
 }
@@ -340,7 +340,7 @@ section.textq {
 }
 blockquote{
     text-align: right;
-font-size: 2.4rem;
+font-size: 2.6rem;
 padding: 0;
 margin: 0;
 }
