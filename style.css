@@ -232,7 +232,9 @@ a.CTA {
 a.CTA span{
   line-height: 1.6;
 }
-
+a.CTA:hover{
+color: var(--bg-page);
+}
 
 .modal {
   position: fixed;
@@ -304,13 +306,23 @@ a.CTA span{
 }
 a.donate{
   color: var(--bg-page);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "David Libre", serif;
     background-color: var(--red);
     padding: 1rem;
     border-radius: 8rem;
     text-decoration: none;
     border: 1px solid var(--bg-page);
+}
+a.donate:hover{
+  color: var(--text);
+    font-size: 1rem;
+    font-family: "David Libre", serif;
+    background-color: var(--red);
+    padding: 1rem;
+    border-radius: 8rem;
+    text-decoration: none;
+    border: 1px solid var(--text);
 }
 .closer p {
   margin-bottom: 2.8rem;
@@ -401,6 +413,7 @@ a.CTA {
 
   margin: 6.2rem auto 0 ;
 }
-
+a.donate{
+    font-size: 1rem;}
 
 }
