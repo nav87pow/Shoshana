@@ -2,13 +2,13 @@
 
 ![Website Preview](./websiteMock.gif)
 
-A temporary landing page created for a memorial event marking 30 days since the passing of Shoshana Sarok.
+A temporary landing page created for a memorial event marking 30 days since the passing of Shoshana.
 
 ## Context
 
 This is a volunteer project created as part of an initiative supporting survivors who speak publicly about ritual sexual abuse.
 
-Shoshana Sarok spoke out about the abuse she experienced but did not receive the support she needed and is no longer with us.
+Shoshana spoke out about the abuse she experienced but did not receive the support she needed and is no longer with us.
 
 The memorial event brings together friends and fellow survivors.
 
@@ -19,15 +19,12 @@ The project is part of an ongoing effort to establish a nonprofit organization t
 ## Features
 
 * Event information and context
-* Call-to-action (CTA) for registration:
-
-  * Join a physical screening
-  * Receive a personal viewing link
+* Call-to-action (CTA) for registration form
 * Donation link for supporting the event production:
   https://links.payboxapp.com/M7T3S3C6b2b
 * Lightweight JavaScript interaction:
 
-  * Dynamic text transitions between sections (based on lyrics written in her memory)
+  * Dynamic text transitions between sections
 
 ## Tech
 
